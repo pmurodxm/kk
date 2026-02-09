@@ -6,17 +6,14 @@ import requests
 from PIL import ImageTk, Image
 import datetime
 import webbrowser
-
-# GitHub URL'lar
+# Dastur Murod Primov tominidan ishlab chiqarilgan
 GITHUB_JSON_URL = "https://raw.githubusercontent.com/pmurodxm/kk/main/product.json"
 GITHUB_BANNER_URL = "https://raw.githubusercontent.com/pmurodxm/kk/main/banner.jpg"
 LOCAL_JSON_PATH = "product.json"
 LOCAL_BANNER_PATH = "banner.jpg"
 LOCAL_UPDATE_TIME_PATH = "update_time.txt"
 
-# Icon fayli nomi (dastur bilan bir papkada bo'lishi kerak)
-ICON_PATH = "app_icon.ico"          # .ico formatida bo'lsa yaxshi
-# Agar .png bo'lsa ham ishlatish mumkin, lekin ba'zi Windows versiyalarida muammo chiqishi mumkin
+ICON_PATH = "app_icon.ico"
 
 def check_and_update_json():
     try:
@@ -71,24 +68,21 @@ class App:
         self.root.geometry("520x580")
         self.root.configure(bg="#0d1117")
 
-        # Oyna o'lchamini o'zgartirib bo'lmaydi
         self.root.resizable(False, False)
 
-        # Icon qo'shish
         if os.path.exists(ICON_PATH):
             try:
-                self.root.iconbitmap(ICON_PATH)           # .ico uchun
+                self.root.iconbitmap(ICON_PATH)           
             except:
                 try:
                     img = Image.open(ICON_PATH)
                     photo = ImageTk.PhotoImage(img)
-                    self.root.iconphoto(True, photo)      # .png uchun
+                    self.root.iconphoto(True, photo)     
                 except:
                     print("Icon yuklanmadi")
         else:
             print("Icon fayli topilmadi:", ICON_PATH)
 
-        # Banner background
         self.bg_photo = None
         self.bg_label = None
         self._load_background()
@@ -102,7 +96,6 @@ class App:
         self.version = self.data.get('version', '?.?')
         self.update_time = get_update_time()
 
-        # Asosiy konteyner
         container = tk.Frame(root, bg="#111111")
         container.place(relx=0.5, rely=0.5, anchor="center", relwidth=0.94, relheight=0.92)
 
@@ -152,7 +145,7 @@ class App:
         download_banner()
         try:
             img = Image.open(LOCAL_BANNER_PATH)
-            # Endi resize qilmaymiz — original o'lchamda
+
             self.bg_photo = ImageTk.PhotoImage(img)
             self.bg_label = tk.Label(self.root, image=self.bg_photo)
             self.bg_label.place(x=0, y=0)
@@ -234,4 +227,5 @@ class App:
 if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
+
     root.mainloop()
