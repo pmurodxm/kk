@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "spr_to_skp": {
     "SPRKN010601": {
       "spr_nomi": "Корпус НБ верхний 09",
@@ -532,4 +532,5 @@
       "aytilishi": "9 PI PEREDNI"
     }
   }
+
 }
