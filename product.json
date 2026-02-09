@@ -1,0 +1,535 @@
+{
+  "version": "1.0",
+  "spr_to_skp": {
+    "SPRKN010601": {
+      "spr_nomi": "Корпус НБ верхний 09",
+      "skp_kod": "SKPKN0151BEJ",
+      "skp_nomi": "Верхняя крышка Н/Б 9 кон бежевый",
+      "aytilishi": "9 VERHNI KRISHKA"
+    },
+    "SSBKN000002": {
+      "spr_nomi": "Кронш.уста.для крепл.к стене ВБ12-18свар",
+      "skp_kod": "SKPKN0181BEJ",
+      "skp_nomi": "Устан.пан.крепл к стене в/б 12-18бежевая",
+      "aytilishi": "K STENE 12/18"
+    },
+    "SSVKN030002": {
+      "spr_nomi": "Кронш.уста.для крепл.к стене ВБ 12 D-сер",
+      "skp_kod": "SKPKN0187BEJ",
+      "skp_nomi": "Sстан.пан.крепл к стене D-сер в/б 12 Беж",
+      "aytilishi": "K STENE 12 D"
+    },
+    "SPRKN001014": {
+      "spr_nomi": "Верхний Крышка AUX 12/18 Кбту",
+      "skp_kod": "SKPKN0157SER",
+      "skp_nomi": "Верхняя крышка Н/Б 12кон сер AVALON",
+      "aytilishi": "HQ VERHNI KRISHKA"
+    },
+    "SPRKN001015": {
+      "spr_nomi": "Боковая крышка AUX 12/18 Кбту",
+      "skp_kod": "SKPKN0143SER",
+      "skp_nomi": "Боковая крышка Н/Б 12кон бежевый AVALON",
+      "aytilishi": "HQ BOKOVOY"
+    },
+    "SPRKN001018": {
+      "spr_nomi": "Передняя крышка AUX 12/18 Кбту",
+      "skp_kod": "SKPKN0123SER",
+      "skp_nomi": "Передная крышка Н/Б 12кон беж AVALON",
+      "aytilishi": "HQ PEREDNI"
+    },
+    "SPRKN001012": {
+      "spr_nomi": "Стойка (держ.) левого угла AUX 12/18 Кбт",
+      "skp_kod": "SKPKN0133SER",
+      "skp_nomi": "Стойка(держат)лев. углаН/Б 12кон беж AVL",
+      "aytilishi": "HQ STOYKA"
+    },
+    "SPRKN000702": {
+      "spr_nomi": "Корпус НБ верхний 12 V2",
+      "skp_kod": "SKPKK0133BEJ",
+      "skp_nomi": "Корпус верхней крыши НБ 12К V2 беж",
+      "aytilishi": "12 VERHNI KRISHKA"
+    },
+    "SPRKN000602": {
+      "spr_nomi": "Корпус НБ правый 12 V2",
+      "skp_kod": "SKPKK0134BEJ",
+      "skp_nomi": "Корпус Боковой крышки НБ 12К V2 беж",
+      "aytilishi": "12 BOKOVOY"
+    },
+    "SPRKN020202": {
+      "spr_nomi": "Корпус НБ передний 12 V2",
+      "skp_kod": "SKPKK0135BEJ",
+      "skp_nomi": "Корпус Передней крышки НБ 12К V2 беж",
+      "aytilishi": "12 PEREDNI"
+    },
+    "SSVKN010009": {
+      "spr_nomi": "Корпус ниж. для Highly комп.НБ 12 свар.V",
+      "skp_kod": "SKPKK0138BEJ",
+      "skp_nomi": "Шасси НБ 12К Highly V2 беж",
+      "aytilishi": "12 V2 SHASSI"
+    },
+    "SSVKN010010": {
+      "spr_nomi": "Нижный корпус шасси НБ 18К V2 сваренная",
+      "skp_kod": "SKPKN0221BEJ",
+      "skp_nomi": "Корпус нижний шасси 18К V2",
+      "aytilishi": "18 V2 SHASSI"
+    },
+    "SPRKN020502": {
+      "spr_nomi": "Верхняя крышка НБ 18К V2",
+      "skp_kod": "SKPKN0234BEJ",
+      "skp_nomi": "Верхняя крышка НБ 18К V2",
+      "aytilishi": "18 VERHNI KRISHKA"
+    },
+    "SPRKN020203": {
+      "spr_nomi": "Передняя крышка НБ 18К V2",
+      "skp_kod": "SKPKN0232BEJ",
+      "skp_nomi": "Передняя крышка НБ 18К V2",
+      "aytilishi": "18 V2 PEREDNI"
+    },
+    "SSVKN010014": {
+      "spr_nomi": "Нижнего корпус, шасси KSN98 (12 Кбт) NEW",
+      "skp_kod": "SKPKN278BEJ",
+      "skp_nomi": "Корпус НБ12 V2 нижний (шасси) GMCC KSN98",
+      "aytilishi": "098 SHASSI"
+    },
+    "SSVKN010015": {
+      "spr_nomi": "Нижнего корпус, шасси AUX 12 HQ VPSB",
+      "skp_kod": "SKPKN288BEJ",
+      "skp_nomi": "Нижний корпус 12HQ кон Бежевый",
+      "aytilishi": "HQ VPS SHASSI"
+    },
+    "SSVKN010016": {
+      "spr_nomi": "Нижнего корпус, шасси 09 HQ VPSB",
+      "skp_kod": "SKPKN289BEJ",
+      "skp_nomi": "Корпус нижний 09HQVPSB Бежевый",
+      "aytilishi": "9 HQ VPS SHASSI"
+    },
+    "SSBKN000001": {
+      "spr_nomi": "Кронш.уста.для крепл.к стене ВБ 09 свар.",
+      "skp_kod": "SKPKN0180BEJ",
+      "skp_nomi": "Устан.пан.креплен к стене в/б 09 бежевая",
+      "aytilishi": "K STENE 9"
+    },
+    "SPRKN020402": {
+      "spr_nomi": "Боковая крышка НБ 18К V2",
+      "skp_kod": "SKPKN0233BEJ",
+      "skp_nomi": "Стойка правого угла НБ 18К V2",
+      "aytilishi": "18 V2 BAKAVOY"
+    },
+    "SSVKN010020": {
+      "spr_nomi": "Нижнего корпус, шасси 18V2 Marvarid VPSB",
+      "skp_kod": "SKPKN291BEJ",
+      "skp_nomi": "Ниж. Корп. Шасси 18V2 Marvarid VPSB беж",
+      "aytilishi": "18 MARVARID SHASSI"
+    },
+    "SSVKN010013": {
+      "spr_nomi": "Нижнего корпус, шасси AUX 12/18 Кбт",
+      "skp_kod": "SKPKK0092SER",
+      "skp_nomi": "Шасси Н/Б кон ниж- кор 12 беж AVALON",
+      "aytilishi": "HQ ESKI SHASSI"
+    },
+    "SPRKN010501": {
+      "spr_nomi": "Корпус НБ правый 09",
+      "skp_kod": "SKPKN0141BEJ",
+      "skp_nomi": "Боковая крышка Н/Б 9 кон бежевый",
+      "aytilishi": "9 BOKOVOY"
+    },
+    "SSVKN010017": {
+      "spr_nomi": "Нижнего корпус, шасси AUX 18HDI VPSB",
+      "skp_kod": "SKPKN290BEJ",
+      "skp_nomi": "Нижнего корпус шасси AUX 18HDI VPSB беж",
+      "aytilishi": "18 D HQ shassi"
+    },
+    "SSVKN010002": {
+      "spr_nomi": "Корпус нижний для Highly комп.НБ 09 свар",
+      "skp_kod": "SKPKN0111BEJ",
+      "skp_nomi": "Нижн.корпус,шасси Н/Б 9кон бежевый",
+      "aytilishi": "9 HAYLI SHASSI"
+    },
+    "SPRKN000502": {
+      "spr_nomi": "Корпус НБ левый 12-18 V2",
+      "skp_kod": "SKPKK0136BEJ",
+      "skp_nomi": "Корпус левого угла НБ 12-18К V2",
+      "aytilishi": "12-18 leviy ugl"
+    },
+    "SPRKN010301": {
+      "spr_nomi": "Корпус НБ передний 09",
+      "skp_kod": "SKPKN0121BEJ",
+      "skp_nomi": "Передная крышка Н/Б 9кон бежевый",
+      "aytilishi": "9 PEREDNI"
+    },
+    "SPRKN020011": {
+      "spr_nomi": "Полка лев. для Н/Б K9/K12/K18 (V3)",
+      "skp_kod": "SKPKN0013BEJ",
+      "skp_nomi": "Полка левая для Н/Б Беж V2 09-12-18K",
+      "aytilishi": "Polka leviy"
+    },
+    "SPRKN020010": {
+      "spr_nomi": "Полка прав. для Н/Б K9/K12/K18 (V3)",
+      "skp_kod": "SKPKN0014BEJ",
+      "skp_nomi": "Полка правая для Н/Б Беж V2 09-12-18K",
+      "aytilishi": "Polka pravi"
+    },
+    "SPRKN010401": {
+      "spr_nomi": "Корпус НБ левый 09",
+      "skp_kod": "SKPKN0131BEJ",
+      "skp_nomi": "Стойка(держат)лев. углаН/Б 9кон беж",
+      "aytilishi": "9 STOYKA LEVIY UGIL"
+    },
+    "SSVKN030003": {
+      "spr_nomi": "Кронш.уста.для крепл.к стене ВБ 18 D-сер",
+      "skp_kod": "SKPKN0188BEJ",
+      "skp_nomi": "Устан.пан.крепл к стене D-сер в/б 18 Беж",
+      "aytilishi": "K STENE 18 D"
+    },
+    "SPRKN001004": {
+      "spr_nomi": "Планка кранов НБ 12-18К V2",
+      "skp_kod": "SKPKK0137BEJ",
+      "skp_nomi": "Планка креп кран щиток НБ 12-18К V2 беж",
+      "aytilishi": "12 18 SHITOK"
+    },
+    "SSVTKN100004": {
+      "spr_nomi": "Решетка кондиционера 30 Kbtu - 24 Kbtu",
+      "skp_kod": "SKPKK0041BEJ",
+      "skp_nomi": "Задная защитная рещетка (квад.) 24 беж",
+      "aytilishi": "24 ZADNI SETKA"
+    },
+    "SPRKN021110": {
+      "spr_nomi": "Стойка для конд. 9/12/18 new",
+      "skp_kod": "SKPKN0138BEJ",
+      "skp_nomi": "Стойка для конд. 9/12/18 30х30х370 Беж",
+      "aytilishi": "9-12-18 STOYKA ARTEL"
+    },
+    "SSVKN010022": {
+      "spr_nomi": "Корпус нижний 18K  KSN140",
+      "skp_kod": "SKPKN294BEJ",
+      "skp_nomi": "Ниж. Корп. Шасси нижний 18K KSN140 беж",
+      "aytilishi": "18 KSN 140 SHASSI"
+    },
+    "R10072584": {
+      "spr_nomi": "Корпус НБ24-30K V3 верхний (неокрашен)",
+      "skp_kod": "SKPKK0140BEJ",
+      "skp_nomi": "Корпус НБ24-30К V3 верхний беж",
+      "aytilishi": "24 VERHNI"
+    },
+    "R10072587": {
+      "spr_nomi": "Корпус НБ24-30K V3 передний (неокрашен)",
+      "skp_kod": "SKPKK0143BEJ",
+      "skp_nomi": "Корпус НБ24-30К V3 передний беж",
+      "aytilishi": "24 peredni"
+    },
+    "R10072585": {
+      "spr_nomi": "Корпус НБ24-30K V3 правый (неокрашен)",
+      "skp_kod": "SKPKK0141BEJ",
+      "skp_nomi": "Корпус НБ24-30К V3 правый беж",
+      "aytilishi": "24 BOKOVOY Правый"
+    },
+    "R10072586": {
+      "spr_nomi": "Корпус НБ24-30K V3 левый (неокрашен)",
+      "skp_kod": "SKPKK0142BEJ",
+      "skp_nomi": "Корпус НБ24-30К V3 левый беж",
+      "aytilishi": "24 BOKOVOY Левый"
+    },
+    "R10072850": {
+      "spr_nomi": "Корпус НБ24HI нижний (шасси) CRSS Неокр.",
+      "skp_kod": "SKPKK0146BEJ",
+      "skp_nomi": "Корпус НБ24HI нижний (шасси) беж",
+      "aytilishi": "24 KRS SHASSI"
+    },
+    "SSVKN010023": {
+      "spr_nomi": "Корпус НБ 09P нижний (шасси) GMCC KSK089",
+      "skp_kod": "SKPKN299BEJ",
+      "skp_nomi": "Корпус 09P нижний (шасси)GMCC KSK089 беж",
+      "aytilishi": "9 PI SHASSI"
+    },
+    "SPRKN000006": {
+      "spr_nomi": "Корпус НБ  09P верхний",
+      "skp_kod": "SKPKN295BEJ",
+      "skp_nomi": "Верхняя крышка Н/Б 09P кон бежевый",
+      "aytilishi": "9 PI VERHNI"
+    },
+    "SPRKN000007": {
+      "spr_nomi": "Корпус НБ 09P правый",
+      "skp_kod": "SKPKN297BEJ",
+      "skp_nomi": "Боковая крышка Н/Б 9 09P кон бежевый",
+      "aytilishi": "9 PI BOKOVOY"
+    },
+    "SPRKN000008": {
+      "spr_nomi": "Корпус НБ 09P левый",
+      "skp_kod": "SKPKN298BEJ",
+      "skp_nomi": "Стойка(держат)лев. углаН/Б 09P кон беж",
+      "aytilishi": "9 PI STOYKA"
+    },
+    "SPRKN000009": {
+      "spr_nomi": "Корпус НБ09P передний",
+      "skp_kod": "SKPKN296BEJ",
+      "skp_nomi": "Передняя крышка Н/Б 09P кон бежевый",
+      "aytilishi": "9 PI PEREDNI"
+    }
+  },
+  "skp_to_spr": {
+    "SKPKN0151BEJ": {
+      "spr_kod": "SPRKN010601",
+      "spr_nomi": "Корпус НБ верхний 09",
+      "skp_nomi": "Верхняя крышка Н/Б 9 кон бежевый",
+      "aytilishi": "9 VERHNI KRISHKA"
+    },
+    "SKPKN0181BEJ": {
+      "spr_kod": "SSBKN000002",
+      "spr_nomi": "Кронш.уста.для крепл.к стене ВБ12-18свар",
+      "skp_nomi": "Устан.пан.крепл к стене в/б 12-18бежевая",
+      "aytilishi": "K STENE 12/18"
+    },
+    "SKPKN0187BEJ": {
+      "spr_kod": "SSVKN030002",
+      "spr_nomi": "Кронш.уста.для крепл.к стене ВБ 12 D-сер",
+      "skp_nomi": "Sстан.пан.крепл к стене D-сер в/б 12 Беж",
+      "aytilishi": "K STENE 12 D"
+    },
+    "SKPKN0157SER": {
+      "spr_kod": "SPRKN001014",
+      "spr_nomi": "Верхний Крышка AUX 12/18 Кбту",
+      "skp_nomi": "Верхняя крышка Н/Б 12кон сер AVALON",
+      "aytilishi": "HQ VERHNI KRISHKA"
+    },
+    "SKPKN0143SER": {
+      "spr_kod": "SPRKN001015",
+      "spr_nomi": "Боковая крышка AUX 12/18 Кбту",
+      "skp_nomi": "Боковая крышка Н/Б 12кон бежевый AVALON",
+      "aytilishi": "HQ BOKOVOY"
+    },
+    "SKPKN0123SER": {
+      "spr_kod": "SPRKN001018",
+      "spr_nomi": "Передняя крышка AUX 12/18 Кбту",
+      "skp_nomi": "Передная крышка Н/Б 12кон беж AVALON",
+      "aytilishi": "HQ PEREDNI"
+    },
+    "SKPKN0133SER": {
+      "spr_kod": "SPRKN001012",
+      "spr_nomi": "Стойка (держ.) левого угла AUX 12/18 Кбт",
+      "skp_nomi": "Стойка(держат)лев. углаН/Б 12кон беж AVL",
+      "aytilishi": "HQ STOYKA"
+    },
+    "SKPKK0133BEJ": {
+      "spr_kod": "SPRKN000702",
+      "spr_nomi": "Корпус НБ верхний 12 V2",
+      "skp_nomi": "Корпус верхней крыши НБ 12К V2 беж",
+      "aytilishi": "12 VERHNI KRISHKA"
+    },
+    "SKPKK0134BEJ": {
+      "spr_kod": "SPRKN000602",
+      "spr_nomi": "Корпус НБ правый 12 V2",
+      "skp_nomi": "Корпус Боковой крышки НБ 12К V2 беж",
+      "aytilishi": "12 BOKOVOY"
+    },
+    "SKPKK0135BEJ": {
+      "spr_kod": "SPRKN020202",
+      "spr_nomi": "Корпус НБ передний 12 V2",
+      "skp_nomi": "Корпус Передней крышки НБ 12К V2 беж",
+      "aytilishi": "12 PEREDNI"
+    },
+    "SKPKK0138BEJ": {
+      "spr_kod": "SSVKN010009",
+      "spr_nomi": "Корпус ниж. для Highly комп.НБ 12 свар.V",
+      "skp_nomi": "Шасси НБ 12К Highly V2 беж",
+      "aytilishi": "12 V2 SHASSI"
+    },
+    "SKPKN0221BEJ": {
+      "spr_kod": "SSVKN010010",
+      "spr_nomi": "Нижный корпус шасси НБ 18К V2 сваренная",
+      "skp_nomi": "Корпус нижний шасси 18К V2",
+      "aytilishi": "18 V2 SHASSI"
+    },
+    "SKPKN0234BEJ": {
+      "spr_kod": "SPRKN020502",
+      "spr_nomi": "Верхняя крышка НБ 18К V2",
+      "skp_nomi": "Верхняя крышка НБ 18К V2",
+      "aytilishi": "18 VERHNI KRISHKA"
+    },
+    "SKPKN0232BEJ": {
+      "spr_kod": "SPRKN020203",
+      "spr_nomi": "Передняя крышка НБ 18К V2",
+      "skp_nomi": "Передняя крышка НБ 18К V2",
+      "aytilishi": "18 V2 PEREDNI"
+    },
+    "SKPKN278BEJ": {
+      "spr_kod": "SSVKN010014",
+      "spr_nomi": "Нижнего корпус, шасси KSN98 (12 Кбт) NEW",
+      "skp_nomi": "Корпус НБ12 V2 нижний (шасси) GMCC KSN98",
+      "aytilishi": "098 SHASSI"
+    },
+    "SKPKN288BEJ": {
+      "spr_kod": "SSVKN010015",
+      "spr_nomi": "Нижнего корпус, шасси AUX 12 HQ VPSB",
+      "skp_nomi": "Нижний корпус 12HQ кон Бежевый",
+      "aytilishi": "HQ VPS SHASSI"
+    },
+    "SKPKN289BEJ": {
+      "spr_kod": "SSVKN010016",
+      "spr_nomi": "Нижнего корпус, шасси 09 HQ VPSB",
+      "skp_nomi": "Корпус нижний 09HQVPSB Бежевый",
+      "aytilishi": "9 HQ VPS SHASSI"
+    },
+    "SKPKN0180BEJ": {
+      "spr_kod": "SSBKN000001",
+      "spr_nomi": "Кронш.уста.для крепл.к стене ВБ 09 свар.",
+      "skp_nomi": "Устан.пан.креплен к стене в/б 09 бежевая",
+      "aytilishi": "K STENE 9"
+    },
+    "SKPKN0233BEJ": {
+      "spr_kod": "SPRKN020402",
+      "spr_nomi": "Боковая крышка НБ 18К V2",
+      "skp_nomi": "Стойка правого угла НБ 18К V2",
+      "aytilishi": "18 V2 BAKAVOY"
+    },
+    "SKPKN291BEJ": {
+      "spr_kod": "SSVKN010020",
+      "spr_nomi": "Нижнего корпус, шасси 18V2 Marvarid VPSB",
+      "skp_nomi": "Ниж. Корп. Шасси 18V2 Marvarid VPSB беж",
+      "aytilishi": "18 MARVARID SHASSI"
+    },
+    "SKPKK0092SER": {
+      "spr_kod": "SSVKN010013",
+      "spr_nomi": "Нижнего корпус, шасси AUX 12/18 Кбт",
+      "skp_nomi": "Шасси Н/Б кон ниж- кор 12 беж AVALON",
+      "aytilishi": "HQ ESKI SHASSI"
+    },
+    "SKPKN0141BEJ": {
+      "spr_kod": "SPRKN010501",
+      "spr_nomi": "Корпус НБ правый 09",
+      "skp_nomi": "Боковая крышка Н/Б 9 кон бежевый",
+      "aytilishi": "9 BOKOVOY"
+    },
+    "SKPKN290BEJ": {
+      "spr_kod": "SSVKN010017",
+      "spr_nomi": "Нижнего корпус, шасси AUX 18HDI VPSB",
+      "skp_nomi": "Нижнего корпус шасси AUX 18HDI VPSB беж",
+      "aytilishi": "18 D HQ shassi"
+    },
+    "SKPKN0111BEJ": {
+      "spr_kod": "SSVKN010002",
+      "spr_nomi": "Корпус нижний для Highly комп.НБ 09 свар",
+      "skp_nomi": "Нижн.корпус,шасси Н/Б 9кон бежевый",
+      "aytilishi": "9 HAYLI SHASSI"
+    },
+    "SKPKK0136BEJ": {
+      "spr_kod": "SPRKN000502",
+      "spr_nomi": "Корпус НБ левый 12-18 V2",
+      "skp_nomi": "Корпус левого угла НБ 12-18К V2",
+      "aytilishi": "12-18 leviy ugl"
+    },
+    "SKPKN0121BEJ": {
+      "spr_kod": "SPRKN010301",
+      "spr_nomi": "Корпус НБ передний 09",
+      "skp_nomi": "Передная крышка Н/Б 9кон бежевый",
+      "aytilishi": "9 PEREDNI"
+    },
+    "SKPKN0013BEJ": {
+      "spr_kod": "SPRKN020011",
+      "spr_nomi": "Полка лев. для Н/Б K9/K12/K18 (V3)",
+      "skp_nomi": "Полка левая для Н/Б Беж V2 09-12-18K",
+      "aytilishi": "Polka leviy"
+    },
+    "SKPKN0014BEJ": {
+      "spr_kod": "SPRKN020010",
+      "spr_nomi": "Полка прав. для Н/Б K9/K12/K18 (V3)",
+      "skp_nomi": "Полка правая для Н/Б Беж V2 09-12-18K",
+      "aytilishi": "Polka pravi"
+    },
+    "SKPKN0131BEJ": {
+      "spr_kod": "SPRKN010401",
+      "spr_nomi": "Корпус НБ левый 09",
+      "skp_nomi": "Стойка(держат)лев. углаН/Б 9кон беж",
+      "aytilishi": "9 STOYKA LEVIY UGIL"
+    },
+    "SKPKN0188BEJ": {
+      "spr_kod": "SSVKN030003",
+      "spr_nomi": "Кронш.уста.для крепл.к стене ВБ 18 D-сер",
+      "skp_nomi": "Устан.пан.крепл к стене D-сер в/б 18 Беж",
+      "aytilishi": "K STENE 18 D"
+    },
+    "SKPKK0137BEJ": {
+      "spr_kod": "SPRKN001004",
+      "spr_nomi": "Планка кранов НБ 12-18К V2",
+      "skp_nomi": "Планка креп кран щиток НБ 12-18К V2 беж",
+      "aytilishi": "12 18 SHITOK"
+    },
+    "SKPKK0041BEJ": {
+      "spr_kod": "SSVTKN100004",
+      "spr_nomi": "Решетка кондиционера 30 Kbtu - 24 Kbtu",
+      "skp_nomi": "Задная защитная рещетка (квад.) 24 беж",
+      "aytilishi": "24 ZADNI SETKA"
+    },
+    "SKPKN0138BEJ": {
+      "spr_kod": "SPRKN021110",
+      "spr_nomi": "Стойка для конд. 9/12/18 new",
+      "skp_nomi": "Стойка для конд. 9/12/18 30х30х370 Беж",
+      "aytilishi": "9-12-18 STOYKA ARTEL"
+    },
+    "SKPKN294BEJ": {
+      "spr_kod": "SSVKN010022",
+      "spr_nomi": "Корпус нижний 18K  KSN140",
+      "skp_nomi": "Ниж. Корп. Шасси нижний 18K KSN140 беж",
+      "aytilishi": "18 KSN 140 SHASSI"
+    },
+    "SKPKK0140BEJ": {
+      "spr_kod": "R10072584",
+      "spr_nomi": "Корпус НБ24-30K V3 верхний (неокрашен)",
+      "skp_nomi": "Корпус НБ24-30К V3 верхний беж",
+      "aytilishi": "24 VERHNI"
+    },
+    "SKPKK0143BEJ": {
+      "spr_kod": "R10072587",
+      "spr_nomi": "Корпус НБ24-30K V3 передний (неокрашен)",
+      "skp_nomi": "Корпус НБ24-30К V3 передний беж",
+      "aytilishi": "24 peredni"
+    },
+    "SKPKK0141BEJ": {
+      "spr_kod": "R10072585",
+      "spr_nomi": "Корпус НБ24-30K V3 правый (неокрашен)",
+      "skp_nomi": "Корпус НБ24-30К V3 правый беж",
+      "aytilishi": "24 BOKOVOY Правый"
+    },
+    "SKPKK0142BEJ": {
+      "spr_kod": "R10072586",
+      "spr_nomi": "Корпус НБ24-30K V3 левый (неокрашен)",
+      "skp_nomi": "Корпус НБ24-30К V3 левый беж",
+      "aytilishi": "24 BOKOVOY Левый"
+    },
+    "SKPKK0146BEJ": {
+      "spr_kod": "R10072850",
+      "spr_nomi": "Корпус НБ24HI нижний (шасси) CRSS Неокр.",
+      "skp_nomi": "Корпус НБ24HI нижний (шасси) беж",
+      "aytilishi": "24 KRS SHASSI"
+    },
+    "SKPKN299BEJ": {
+      "spr_kod": "SSVKN010023",
+      "spr_nomi": "Корпус НБ 09P нижний (шасси) GMCC KSK089",
+      "skp_nomi": "Корпус 09P нижний (шасси)GMCC KSK089 беж",
+      "aytilishi": "9 PI SHASSI"
+    },
+    "SKPKN295BEJ": {
+      "spr_kod": "SPRKN000006",
+      "spr_nomi": "Корпус НБ  09P верхний",
+      "skp_nomi": "Верхняя крышка Н/Б 09P кон бежевый",
+      "aytilishi": "9 PI VERHNI"
+    },
+    "SKPKN297BEJ": {
+      "spr_kod": "SPRKN000007",
+      "spr_nomi": "Корпус НБ 09P правый",
+      "skp_nomi": "Боковая крышка Н/Б 9 09P кон бежевый",
+      "aytilishi": "9 PI BOKOVOY"
+    },
+    "SKPKN298BEJ": {
+      "spr_kod": "SPRKN000008",
+      "spr_nomi": "Корпус НБ 09P левый",
+      "skp_nomi": "Стойка(держат)лев. углаН/Б 09P кон беж",
+      "aytilishi": "9 PI STOYKA"
+    },
+    "SKPKN296BEJ": {
+      "spr_kod": "SPRKN000009",
+      "spr_nomi": "Корпус НБ09P передний",
+      "skp_nomi": "Передняя крышка Н/Б 09P кон бежевый",
+      "aytilishi": "9 PI PEREDNI"
+    }
+  }
+}
