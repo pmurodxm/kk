@@ -6,16 +6,21 @@ import requests
 from PIL import ImageTk, Image
 import datetime
 import webbrowser
-# Dastur Murod Primov tominidan ishlab chiqarilgan
+
 GITHUB_JSON_URL = "https://raw.githubusercontent.com/pmurodxm/kk/main/product.json"
 GITHUB_BANNER_URL = "https://raw.githubusercontent.com/pmurodxm/kk/main/banner.jpg"
-LOCAL_JSON_PATH = "product.json"
-LOCAL_BANNER_PATH = "banner.jpg"
-LOCAL_UPDATE_TIME_PATH = "update_time.txt"
 
-ICON_PATH = "app_icon.ico"
+APP_DATA_DIR = os.path.join(os.getenv('APPDATA'), "KK_Search")
+os.makedirs(APP_DATA_DIR, exist_ok=True) 
+
+LOCAL_JSON_PATH = os.path.join(APP_DATA_DIR, "product.json")
+LOCAL_BANNER_PATH = os.path.join(APP_DATA_DIR, "banner.jpg")
+LOCAL_UPDATE_TIME_PATH = os.path.join(APP_DATA_DIR, "update_time.txt")
+
+ICON_PATH = "app_icon.ico"  
 
 def check_and_update_json():
+    """GitHubdan yangi ma'lumot bor-yo'qligini tekshiradi va yangilaydi"""
     try:
         resp = requests.get(GITHUB_JSON_URL, timeout=10)
         resp.raise_for_status()
@@ -32,19 +37,20 @@ def check_and_update_json():
         if ver_remote > ver_local:
             with open(LOCAL_JSON_PATH, 'w', encoding='utf-8') as f:
                 json.dump(remote, f, ensure_ascii=False, indent=2)
-            with open(LOCAL_UPDATE_TIME_PATH, 'w') as f:
+            with open(LOCAL_UPDATE_TIME_PATH, 'w', encoding='utf-8') as f:
                 f.write(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-            messagebox.showinfo("Yangilandi", f"Versiya {ver_remote}")
+            messagebox.showinfo("Yangilandi", f"Ma'lumotlar yangilandi\nVersiya: {ver_remote}")
             return remote
         return local_data or remote
     except Exception as e:
-        messagebox.showwarning("Xato", f"Yangilash muvaffaqiyatsiz: {e}")
+        messagebox.showwarning("Xato", f"Yangilash muvaffaqiyatsiz:\n{e}")
         if os.path.exists(LOCAL_JSON_PATH):
             with open(LOCAL_JSON_PATH, encoding='utf-8') as f:
                 return json.load(f)
         return None
 
 def download_banner():
+    """Banner rasmni GitHubdan yuklab saqlaydi"""
     try:
         resp = requests.get(GITHUB_BANNER_URL, timeout=8)
         resp.raise_for_status()
@@ -55,8 +61,9 @@ def download_banner():
         return False
 
 def get_update_time():
+    """Oxirgi yangilanish vaqtini o'qiydi"""
     try:
-        with open(LOCAL_UPDATE_TIME_PATH) as f:
+        with open(LOCAL_UPDATE_TIME_PATH, encoding='utf-8') as f:
             return f.read().strip()
     except:
         return "—"
@@ -67,21 +74,18 @@ class App:
         self.root.title("KK Kod Qidiruv")
         self.root.geometry("520x580")
         self.root.configure(bg="#0d1117")
-
         self.root.resizable(False, False)
 
         if os.path.exists(ICON_PATH):
             try:
-                self.root.iconbitmap(ICON_PATH)           
+                self.root.iconbitmap(ICON_PATH)
             except:
                 try:
                     img = Image.open(ICON_PATH)
                     photo = ImageTk.PhotoImage(img)
-                    self.root.iconphoto(True, photo)     
+                    self.root.iconphoto(True, photo)
                 except:
-                    print("Icon yuklanmadi")
-        else:
-            print("Icon fayli topilmadi:", ICON_PATH)
+                    pass
 
         self.bg_photo = None
         self.bg_label = None
@@ -89,7 +93,7 @@ class App:
 
         self.data = check_and_update_json()
         if not self.data:
-            messagebox.showerror("Xato", "Ma'lumotlar yuklanmadi!")
+            messagebox.showerror("Xato", "Ma'lumotlar yuklanmadi!\nInternet aloqasini tekshiring.")
             self.root.destroy()
             return
 
@@ -142,10 +146,11 @@ class App:
         tg.bind("<Button-1>", lambda _: webbrowser.open("https://t.me/CodeDrop_py"))
 
     def _load_background(self):
-        download_banner()
+        if not os.path.exists(LOCAL_BANNER_PATH):
+            download_banner()
+
         try:
             img = Image.open(LOCAL_BANNER_PATH)
-
             self.bg_photo = ImageTk.PhotoImage(img)
             self.bg_label = tk.Label(self.root, image=self.bg_photo)
             self.bg_label.place(x=0, y=0)
@@ -227,5 +232,4 @@ class App:
 if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
-
     root.mainloop()
